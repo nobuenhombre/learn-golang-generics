@@ -1,4 +1,8 @@
+GENERICS IN GO 1.18
+===================
+
 translate article :: https://programmingpercy.tech/blog/learning-generics-in-go
+Other examples :: https://github.com/mier85/rcu
 
 Изучение дженериков в Go
 ========================
