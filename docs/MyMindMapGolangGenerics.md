@@ -70,7 +70,7 @@ func (c Config[A,B,C]) Action(a A, b B) C {
 ``` 
 
 4. Дженерик Интерфейсы
-цель - создать интерфейсы с дженерик типами
+цель - создать интерфейсы с методами использующими дженерик типы
 ```go
 type Active[A GenericTypeA, B GenericTypeB, C GenericTypeC] interface {
     Action(a A, b B) C
@@ -79,7 +79,7 @@ type Active[A GenericTypeA, B GenericTypeB, C GenericTypeC] interface {
 
 Сравниваю Generics и Reflection
 -------------------------------
-Для обработки нескольких типов одногь параметра также можно использовать interface{} и reflections.
+Для обработки нескольких типов одного параметра также можно использовать interface{} и reflections.
 Но при этом требуется дополнительная обработка ошибок которые могут возникнуть.
 И обработка этих ошибок происходит в Runtime.
 
